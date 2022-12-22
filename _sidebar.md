@@ -10,3 +10,7 @@
   - Chronos OpenAPI
   - Test Document
     - [2022.12 测试文档](/test/2022.12.md)
+  - Reference
+    - [Base58 编码](/reference/base58.md)
+  - Ideas
+    - [多链处理](/ideas/mult-chain.md)
