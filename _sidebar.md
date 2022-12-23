@@ -6,10 +6,13 @@
     - [时间同步算法](/v1.x/Node/时间同步算法.md)
     - [共识算法](/v1.x/Node/共识算法.md)
     - [交易池](/v1.x/Node/交易池.md)
+    - [数据库结构](/v1.x/Node/database.md)
   - Chronos Python SDK
   - Chronos OpenAPI
   - Test Document
     - [2022.12 测试文档](/test/2022.12.md)
+- Modules
+  - [数据库](/modules/database.md)
 - Reference
   - [Base58 编码](/reference/base58.md)
 - Ideas
