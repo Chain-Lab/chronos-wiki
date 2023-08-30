@@ -1,15 +1,16 @@
-- Chronos v1.x
+- Chronos python
   - Node
-    - [概览](/v1.x/Node/概览.md)
-    - [账户模型](/v1.x/Node/账户模型.md)
-    - [区块结构](/v1.x/Node/区块结构.md)
-    - [交易模型](/v1.x/Node/交易模型.md)
-    - [共识算法](/v1.x/Node/共识算法.md)
-    - [数据库结构](/v1.x/Node/database.md)
-    - [线程协作](/v1.x/Node/线程协作.md)
+    - [概览](/python/Node/概览.md)
+    - [账户模型](/python/Node/账户模型.md)
+    - [区块结构](/python/Node/区块结构.md)
+    - [交易模型](/python/Node/交易模型.md)
+    - [共识算法](/python/Node/共识算法.md)
+    - [数据库结构](/python/Node/database.md)
+    - [线程协作](/python/Node/线程协作.md)
   - Protocol
-    - [广播协议](/v1.x/Protocol/广播协议.md)
-    - [通信协议](/v1.x/Protocl/通信协议.md)
+    - [广播协议](/python/Protocol/广播协议.md)
+    - [通信协议](/python/Protocl/通信协议.md)
+- Chronos Golang
 - Chronos Python SDK
 - Chronos OpenAPI
 - Test Document
