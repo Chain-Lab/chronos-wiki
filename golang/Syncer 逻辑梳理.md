@@ -1,4 +1,4 @@
-# Syncer 逻辑梳理
+# Syncer 区块同步逻辑
 
 Git 版本号：86b9eb4 （branch v1.0.1）
 
