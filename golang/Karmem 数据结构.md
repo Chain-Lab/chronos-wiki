@@ -34,6 +34,7 @@ struct TransactionBody table {
     Data []byte;					// 可选数据段，可以被用来调用智能合约
     Expire int64;					// 交易过期时间
     Timestamp int64;				// 交易的时间戳
+    Gas int64;						// 交易花费 gas
 }
 
 // 交易，只包含一个body
@@ -67,6 +68,7 @@ struct BlockHeader table {
     Height int64;					// 当前区块的高度
     PublicKey [33]byte;				// 当前区块生成者的公钥
     Params []byte;					// 区块附带的参数信息，创世参数或普通参数
+    // 预留状态、合约代码的结构
 }
 
 // 区块所的结构
