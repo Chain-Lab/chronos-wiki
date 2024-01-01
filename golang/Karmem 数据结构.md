@@ -28,13 +28,19 @@ karmem structs @packed(true) @golang.package(`core`);
 // 交易体结构
 struct TransactionBody table {
     Hash [32]byte;					// 交易的哈希值
-    Signature [<73]byte;			// 交易的签名
     Address [20]byte;				// 交易发送者的地址
-    Public [33]byte;				// 交易发送者的公钥
     Data []byte;					// 可选数据段，可以被用来调用智能合约
+    Receiver [20]byte;
+    Gas int64;						// 交易花费 gas
+    Nonce int64;
+    Event []byte;
+    Opt []byte;
+    State []byte;
+    Data []byte;
     Expire int64;					// 交易过期时间
     Timestamp int64;				// 交易的时间戳
-    Gas int64;						// 交易花费 gas
+    Public [33]byte;				// 交易发送者的公钥
+    Signature [<73]byte;			// 交易的签名
 }
 
 // 交易，只包含一个body
